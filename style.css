@@ -139,6 +139,10 @@ main>section>div>p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5vw;
 }
+main>section>div>h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vw;
+}
 main>section>div>img {
     height:auto;
     width: 30vw;
@@ -146,7 +150,7 @@ main>section>div>img {
     margin: 1vw;
 }
 main>section>div>h2 {
-font-size: 1em;
+font-size: 4vw;
 margin: 1vw;
 }
 main>section>div.abt2>img {
