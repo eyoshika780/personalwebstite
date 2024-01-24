@@ -103,9 +103,19 @@ div>h5 {
   }
   main>h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 7vw;
+    font-size: 4vw;
     margin: 2vw;
+    transition: font-family 2s ease-out 100ms;
+    transition: color 2s ease-out 100ms;
+    transition: font-size 2s ease-out 100ms
     }
+    main>h2:hover {
+      font-family:cursive;
+      font-size: 6vw;
+      color: rgb(111, 5, 67);
+
+      }
+
 main>img{
     width: 30vw;
     height: auto;
@@ -148,7 +158,11 @@ main>section>div>img {
     width: 30vw;
     float: right;
     margin: 1vw;
+
 }
+
+
+
 main>section>div>h2 {
 font-size: 4vw;
 margin: 1vw;
@@ -162,6 +176,17 @@ main>section>div.abt2>img {
 main>section .abt2 {
    text-align: right;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main>div.Success {
+  text-align: center;
+  font-size: xx-large;
+  margin: 2em;
+}
+main>h1.contact {
+  margin: .5em;
+}
+main>form {
+  margin: 1em
 }
   /* --- END OF MAIN --- */
 
